@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "ASIR, DOGS"
-# prueba
+echo ASIR, DOGS
+# prueba sin comillas
