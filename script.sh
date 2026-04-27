@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "ASIR,DOGS"
+echo "Buenas ASIR, DOGS"
 # Prueba
