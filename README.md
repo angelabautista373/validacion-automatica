@@ -1,19 +1,3 @@
-name: Validar script shell
+# Validacion automatica con GitHub Actions
 
-on:
-  push:
-    branches: [ "main" ]
-
-jobs:
-  shellcheck:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout del repositorio
-        uses: actions/checkout@v4
-
-      - name: Instalar ShellCheck
-        run: sudo apt-get install -y shellcheck
-
-      - name: Ejecutar ShellCheck
-        run: shellcheck script.sh
+![Estado](https://github.com/angela/bautista373/validacion automatica/actions/workflows/validate.yml/badge.svg)
